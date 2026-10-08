@@ -1,0 +1,16 @@
+[package]
+name = "reelscript-app"
+description = "ReelScript desktop screenplay editor"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "reelscript-app"
+path = "src/main.rs"
+
+[dependencies]
+reelscript-core = { path = "../reelscript-core" }
+eframe = "=0.36.2"
+rfd = "=0.17.2"
+chrono = { version = "=0.4.45", default-features = false, features = ["clock"] }

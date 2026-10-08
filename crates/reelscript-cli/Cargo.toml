@@ -1,0 +1,13 @@
+[package]
+name = "reelscript-cli"
+description = "Convert Fountain screenplays to PDF"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "reelscript"
+path = "src/main.rs"
+
+[dependencies]
+reelscript-core = { path = "../reelscript-core" }
