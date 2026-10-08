@@ -3,6 +3,7 @@ name = "reelscript-cli"
 description = "Convert Fountain screenplays to PDF"
 version.workspace = true
 edition.workspace = true
+rust-version.workspace = true
 license.workspace = true
 
 [[bin]]

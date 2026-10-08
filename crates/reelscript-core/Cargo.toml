@@ -3,6 +3,7 @@ name = "reelscript-core"
 description = "Fountain screenplay parser, industry-standard pagination and PDF export"
 version.workspace = true
 edition.workspace = true
+rust-version.workspace = true
 license.workspace = true
 
 [dependencies]
